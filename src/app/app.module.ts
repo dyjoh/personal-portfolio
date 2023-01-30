@@ -18,6 +18,7 @@ import { SkillsComponent } from './components/skills/skills.component';
 import { ProjectsComponent } from './components/projects/projects.component';
 import { ContactsComponent } from './components/contacts/contacts.component';
 import { WorkComponent } from './components/work/work.component';
+import { NgbCarousel, NgbModule } from '@ng-bootstrap/ng-bootstrap';
 
 
 @NgModule({
@@ -41,7 +42,9 @@ import { WorkComponent } from './components/work/work.component';
     MatButtonModule,
     MatIconModule,
     MatDividerModule,
-    HttpClientModule
+    HttpClientModule,
+    NgbModule,
+    NgbCarousel
   ],
   providers: [],
   bootstrap: [AppComponent]

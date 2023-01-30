@@ -1,1 +1,12 @@
-<p>education works!</p>
+<div class="container">
+    <h1>Education</h1>
+    <div class="card" *ngFor="let school of education">
+        <h2>
+            {{school.school}}
+            <sup><i>{{school.duration}}</i></sup>
+        </h2>
+        
+        <p>{{school.major}}</p>
+    </div>
+
+</div>

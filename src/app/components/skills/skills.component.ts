@@ -20,8 +20,10 @@ export class SkillsComponent implements OnInit {
 
   ngOnInit(): void {
     this.parser.getData(this.url).subscribe(res => {
-      this.javascript = res.javascript
-      
+      this.javascript = res.javascript;
+      this.html = res.html;
+      this.backend = res.backend;
+      this.tools = res.tools;
     });
     
   }

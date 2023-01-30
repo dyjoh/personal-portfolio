@@ -1,9 +1,21 @@
+<h1>Skills</h1>
 <div class="cage">
-    <div class="item item--1">
+
+    <div class="item item--1"  >
         <span class="icon">
             <i class="material-icons">javascript</i>      
         </span>
         <span class="text text--1"> JavaScript </span>
+        <ul>
+            <li *ngFor="let item of javascript;">
+                <span>{{item.type}}</span>
+                <div class="progress">
+                    <div class="progress-bar {{item.exp}}" role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                <span>{{item.exp}}</span>
+
+            </li>
+        </ul>
     </div>
     <div class="item item--2">
         <span class="icon"> 
@@ -11,17 +23,48 @@
             <i class="material-icons">css</i>
         </span>
         <span class="text text--2"> HTML/CSS </span>
+        <ul>
+            <li *ngFor="let item of html;">
+                <span>{{item.type}}</span>
+                <div class="progress">
+                    <div class="progress-bar {{item.exp}}" role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                <span>{{item.exp}}</span>
+
+            </li>
+        </ul>
     </div>
     <div class="item item--3">
         <span class="icon">
             <i class="material-icons">data_object</i>
         </span>
         <span class="text text--3"> Backend </span>
+        <ul>
+            <li *ngFor="let item of backend;">
+                <span>{{item.type}}</span>
+                <div class="progress">
+                    <div class="progress-bar {{item.exp}}" role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                <span>{{item.exp}}</span>
+ 
+            </li>
+
+        </ul>
     </div>
     <div class="item item--4">
         <span class="icon">
             <i class="material-icons">folder</i>
         </span>
         <span class="text text--4"> Tools </span>
+        <ul>
+            <li *ngFor="let item of tools;">
+                <span>{{item.type}}</span>
+                <div class="progress">
+                    <div class="progress-bar {{item.exp}}" role="progressbar"  aria-valuenow="25" aria-valuemin="0" aria-valuemax="100"></div>
+                  </div>
+                <span>{{item.exp}}</span>
+
+            </li>
+        </ul>
     </div>
   </div>

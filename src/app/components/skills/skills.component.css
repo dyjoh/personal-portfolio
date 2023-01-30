@@ -1,3 +1,15 @@
+h1 {
+    margin: 16px 48px;
+    color: aliceblue;
+}
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+ul li {
+    margin: 1rem 0;
+}
 .cage {
     height: 254px;
     color: rgb(45, 45, 45);
@@ -29,6 +41,8 @@
     align-items: center;
     justify-content: center;
     margin: 0 20px;
+    box-shadow: 5px 5px 10px rgb(25, 25, 25),
+    -5px -5px 10px rgb(60, 60, 60);
 }
    
    
@@ -62,3 +76,25 @@
    .item--4 {
     background: #f1502f;
    }
+
+.Beginner {
+    width: 25%;
+
+}
+
+
+.Intermediate {
+    width: 50%;
+    
+}
+
+
+.Advanced {
+    width: 75%;
+    
+}
+
+.progress{
+    height: 5px;
+    --bs-progress-bar-bg: #5a78f0;
+}

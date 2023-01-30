@@ -1,0 +1,33 @@
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: aliceblue;
+    height: 254px;
+    margin: 40px 0;
+    border-radius: 30px;
+    background: #212121;
+    box-shadow: 5px 5px 10px rgb(25, 25, 25),
+                -5px -5px 10px rgb(60, 60, 60);
+   }
+
+.container{
+    padding: 3rem 2rem;
+}
+
+h1 {
+    color: aliceblue;
+}
+
+h2 {
+    text-transform: capitalize;
+}
+
+sup {
+    font-size: 10px;
+    background-color: #5a78f0;
+    padding: 5px;
+    border-radius: 20px;
+}
+   
+   
