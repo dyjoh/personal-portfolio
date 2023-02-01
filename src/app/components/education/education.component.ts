@@ -1,6 +1,8 @@
 import { Component, OnInit } from '@angular/core';
 import { ParserService } from 'src/app/service/parser.service';
 
+
+
 @Component({
   selector: 'app-education',
   templateUrl: './education.component.html',
@@ -9,7 +11,6 @@ import { ParserService } from 'src/app/service/parser.service';
 export class EducationComponent implements OnInit{
   url: string = "/assets/education.json";
   education?: any[];
-
   constructor(private parser: ParserService){
 
   }

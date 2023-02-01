@@ -1,12 +1,14 @@
 <div class="container">
     <h1>Education</h1>
-    <div class="card" *ngFor="let school of education">
+    <div class="card" *ngFor="let school of education" data-aos="fade-right" data-aos-once="true">
         <h2>
             {{school.school}}
             <sup><i>{{school.duration}}</i></sup>
         </h2>
         
         <p>{{school.major}}</p>
+        <p>{{school.degree}}</p>
+
     </div>
 
 </div>

@@ -2,9 +2,24 @@ ngb-carousel {
      display: flex;
     color: aliceblue;
     width: 90%;
-    
+    margin: 10px auto;
+    border-radius: 10px;
+
+}
+
+.carousel-caption{
+    width: 100%;
+    color: rgb(38, 38, 38);
+    background: #5a78f0;
+    box-shadow: 0 0 30px 30px #5a78f0;    
+    left: 0;
+}
+
+.carousel-caption a i{
     margin: 10px auto;
 }
+
+
 
 img{
     width: 100%;
@@ -33,11 +48,16 @@ img{
 }
 
 .item {
+    background-repeat: no-repeat;
     background-color: #5a78f0;
     height: 30rem;
+    border-radius: 10px;
+    background-size: 100%;
+    box-shadow: 0 0 30px 30px #5a78f0 inset;    
 }
 
 h1 {
     margin: 16px 48px;
     color: aliceblue;
 }
+

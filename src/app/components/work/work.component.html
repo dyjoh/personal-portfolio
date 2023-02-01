@@ -2,12 +2,12 @@
     <h1>Work Experience</h1>
 
     <ul>
-        <li *ngFor="let exp of workExp">
+        <li *ngFor="let exp of workExp" data-aos="fade-left" data-aos-once="true">
             <h2>{{exp.role}}</h2>
             <h3>{{exp.company}}</h3>
             <h4>{{exp.duration}}</h4>
             <ul>
-                <li *ngFor="let desc of exp.description">{{desc}}</li>
+                <li *ngFor="let desc of exp.description" data-aos="fade-left" data-aos-once="true">{{desc}}</li>
             </ul>
         </li>
     </ul>

@@ -1,12 +1,15 @@
 <h1>Projects</h1>
 <div class="container">
-    <ngb-carousel *ngIf="projects"  [interval]="5000">
+    <ngb-carousel *ngIf="projects"  [interval]="0">
         <ng-template ngbSlide *ngFor="let project of projects; let i = index" >
 
-                <div class="item" (click)="getDescription(i)">
-                    <h1>Graph 1</h1>
+                <div class="item" (click)="getDescription(i)" style="background-image: url({{project.img}});">
+
                     <div class="carousel-caption">
                         <h3>{{project.name}}</h3>
+                        <a href="{{project.link}}" target="_blank">
+                            <i class="pi pi-github" style="font-size: 2rem"></i>
+                        </a>
                         <p>{{project.description}}</p>
                     </div>
                 </div>
