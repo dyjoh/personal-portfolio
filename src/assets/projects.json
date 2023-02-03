@@ -4,7 +4,7 @@
             "name": "Twitter Clone",
             "languages": ["JS","NoSQL", "HTML/CSS"],
             "tools": ["Node JS", "Mongo DB", "Git"],
-            "link": "https://github.com/KingKoopa23JR/twitter-clone",
+            "link": "https://github.com/dyjoh/twitter-clone",
             "img": "/assets/projectimages/profile.png",
             "description": "A clone of Twitter made with Nodejs, Ajax, Jquery, JS, HTML/CSS, and MongoDB to handle data storage. This web app allows a user to sign up and sign, allowing them to post, like/dislike post, search other users, follow, and update profile"
         },
@@ -12,7 +12,7 @@
             "name": "Handy: Simple Login/Web Template",
             "languages": ["JS/TS","NoSQL", "HTML/CSS"],
             "tools": ["Node JS", "Mongo DB", "Git", "Angular"],
-            "link": "https://github.com/KingKoopa23JR/Handy",
+            "link": "https://github.com/dyjoh/Handy",
             "img": "/assets/projectimages/handyhome.png",
             "description": "A demo for a client to give ideas of how a website and logo for their idea could be designed. This was made with Angular and Node JS. This a fully functional sign and register screen, as well as routing through out different pages. Unfortunately it was never finished due to the client not wanting to pay"
         },
@@ -20,7 +20,7 @@
             "name": "Weather App",
             "languages": ["JS", "HTML/CSS"],
             "tools": ["ReactJS", "Git"],
-            "link": "https://github.com/KingKoopa23JR/weather-app",
+            "link": "https://github.com/dyjoh/weather-app",
             "img": "/assets/projectimages/LVBack.png",
             "description": "A simple weather app that utilizes React and Axios to get geolocation data from one API and use that data to get weather data from another API. This data was then used on a minimalistic card design to showcase the weather data when searched"
         },
@@ -28,7 +28,7 @@
             "name": "Node Weather App",
             "languages": ["JS", "HTML/CSS"],
             "tools": ["Node JS", "Git"],
-            "link": "https://github.com/KingKoopa23JR/weather-website",
+            "link": "https://github.com/dyjoh/weather-website",
             "img": "/assets/projectimages/weatherwebsitemain.png",
             "description": "A simple weather app that utilizes NodeJS to get weather data from an API, this was a first step into NodeJS, so the looks were not very well thought out since this was maninly backend focused"
 
