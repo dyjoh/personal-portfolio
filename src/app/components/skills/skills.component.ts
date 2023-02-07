@@ -7,7 +7,7 @@ import { ParserService } from 'src/app/service/parser.service';
   styleUrls: ['./skills.component.css']
 })
 export class SkillsComponent implements OnInit {
-  url: string = "/assets/skills.json"
+  url: string = "./assets/skills.json"
   javascript?: any[];
   html?: any[];
   backend?: any[];
