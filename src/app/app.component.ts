@@ -1,5 +1,4 @@
 import { Component, OnInit } from '@angular/core';
-import * as AOS from 'aos';
 
 @Component({
   selector: 'app-root',
@@ -8,7 +7,6 @@ import * as AOS from 'aos';
 })
 export class AppComponent implements OnInit {
   ngOnInit(): void {
-    AOS.init();
 
   }
   title = 'personal-portfolio';
