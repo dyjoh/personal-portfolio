@@ -1,5 +1,6 @@
 {
   "name": "personal-portfolio",
+  "homepage": "https://personal-portfolio-ang.web.app/personal-portfolio/",
   "version": "0.0.0",
   "scripts": {
     "ng": "ng",
