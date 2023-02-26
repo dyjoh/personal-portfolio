@@ -1,32 +1,32 @@
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
+<nav class="navbar navbar-expand-lg fixed-top">
   <div class="container-fluid">
-    <a class="navbar-brand" href="#home"><i class="material-icons">folder_shared</i> Portfolio</a>
+    <a class="navbar-brand" href=""><i class="material-icons">folder_shared</i> <b>PORTFOLIO</b></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
     <div class="collapse navbar-collapse" id="navbarText">
       <ul class="navbar-nav me-auto mb-2 mb-lg-0">
         <li class="nav-item">
-          <a class="nav-link " aria-current="page" href="#home">Home</a>
+          <button class="" href="" (click)="onClickScroll('home')">Home</button>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#dj-skills">Skills</a>
+          <button class="" href="" (click)="onClickScroll('dj-skills')">Skills</button>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#dj-projects">Projects</a>
+          <button class="" href="" (click)="onClickScroll('dj-projects')">Projects</button>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#dj-education">Education</a>
+          <button class="" href="" (click)="onClickScroll('dj-education')">Education</button>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#dj-work">Work</a>
+          <button class="" href="" (click)="onClickScroll('dj-work')">Work</button>
         </li>
       </ul>
       <span class="navbar-icons">
-        <a href="{{github}}" target="_blank">
+        <a class="git-link" href="{{github}}" target="_blank">
           <i class="pi pi-github" style="font-size: 2rem"></i>
         </a>
-        <a href="{{linkedin}}" target="_blank">
+        <a class="git-link" href="{{linkedin}}" target="_blank">
           <i class="pi pi-linkedin" style="font-size: 2rem"></i>
         </a>
       </span>

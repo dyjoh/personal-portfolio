@@ -1,14 +1,80 @@
 .navbar {
-    background:linear-gradient(to right, #261d32 , #00000071 );
+background: #212121;
+padding: 10px 0 0 0;
 }
 
 .navbar a{
     color: #5a78f0;
 }
 
+b {
+    color: aliceblue
+}
 
+.navbar-brand {
+    padding: 0;
+    margin-bottom: 5px;
+}
 
 .navbar-icons a:nth-child(2) {
     margin: 2px 20px
 }
 
+button {
+    width: 7em;
+    position: relative;
+    height: 2.5em;
+    margin-right: 5px;
+    margin-bottom: 10px;
+    border: 3px ridge #5a78f0;
+    outline: none;
+    background-color: transparent;
+    color: white;
+    transition: 1s;
+    border-radius: 0.3em;
+    font-size: 16px;
+    font-weight: bold;
+  }
+  
+  button::after {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+    transform-origin: center;
+  }
+  
+  button::before {
+    content: "";
+    transform-origin: center;
+    position: absolute;
+    top: 80%;
+    left: 3%;
+    width: 95%;
+    height: 40%;
+    background-color: #212121;
+    transition: 0.5s;
+  }
+  
+  button:hover::before, button:hover::after {
+    transform: scale(0)
+  }
+  
+  button:hover {
+    box-shadow: inset 0px 0px 25px #1479EA;
+  }
+
+  .pi-github,
+  .pi-linkedin{
+    color: #1479EA;
+    transition: 0.5s ease;
+}
+  .pi-github:hover,
+  .pi-linkedin:hover{
+    color: #f05a5a;
+    transition: 0.5s ease;
+}
